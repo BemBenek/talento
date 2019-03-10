@@ -24,7 +24,69 @@ a:hover {
 
     margin: 0 auto;
 
+}
+
+.container-default {
+    padding: 100px 0;
+}
+
+.container-flex {
     display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 0;
+}
+
+.title-primary {
+    font-size: 60px;
+}
+
+.title-main {
+    font-size: 40px;
+}
+
+.title-default {
+    font-size: 32px;
+}
+
+.title-alt {
+    font-size: 24px;
+}
+
+.btn {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-wrap {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-l {
+    height: 80px;
+
+    padding: 0 80px;
+
+    border-radius: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.btn-red {
+    background-color: #f00;
+    color: #fff;
 }
 
 .image-wrapper {
@@ -43,6 +105,8 @@ a:hover {
 
     height: 60px;
     width: 100%;
+
+    z-index: 999;
 }
 
 .container-header {
@@ -95,16 +159,27 @@ a:hover {
     max-width: 635px;
     
     font-weight: 300;
-    font-size: 40px;
 
     text-align: center;
 }
 
+.section-projects {
+    padding-bottom: 100px;
+
+    background-color: #2A2929;
+}
+
 .projects-list {
+    position: relative;
+
+    top: -75px;
+
     display: flex;
     flex-wrap: wrap;
 
     width: 100%;
+
+    margin-bottom: -75px;
 }
 
 
@@ -129,8 +204,59 @@ a:hover {
     width: 100%;
     height: 100%;
 
+    padding: 30px 15px;
+
     background-color: rgba(255, 0, 0, 0.5);
     opacity: 0;
 
     transition: 200ms;
+}
+
+.project-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.link-white {
+    color: #fff;
+}
+
+.show-more {
+    display: block;
+
+    margin: 100px 0 0; 
+
+    text-decoration: underline;
+
+    text-align: center;
+
+}
+
+.contact-title {
+    font-size: 21px;
+}
+
+.contact-address {
+    margin: 60px 0 30px;
+
+    font-size: 14px;
+
+}
+
+.socials-list {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.contact-btn {
+    
 }
