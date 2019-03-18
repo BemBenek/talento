@@ -257,6 +257,26 @@ a:hover {
     margin-right: 5px;
 }
 
-.contact-btn {
+
+
+.black-rentagle {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 130px 90px;
+
+    height: 460px;
+
+    background-color: #000;
+    color: #fff;
+}
+
+.black-rentagle-header {
+    padding-bottom: 50px;
+
+    font-weight: bold;
+}
+
+.black-rentagle-small-text {
     
 }
