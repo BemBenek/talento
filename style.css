@@ -259,11 +259,11 @@ a:hover {
 
 
 
-.black-rentagle {
+.black-section {
     display: flex;
     justify-content: space-around;
 
-    padding: 130px 90px;
+    padding: 90px 130px;
 
     height: 460px;
 
@@ -271,12 +271,40 @@ a:hover {
     color: #fff;
 }
 
-.black-rentagle-header {
-    padding-bottom: 50px;
+.black-section-header {
+    margin-bottom: 50px;
 
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.black-rentagle-small-text {
-    
+.black-section-small-text {
+    font-size: 18px;
+}
+
+.black-section-item:not(:last-child) {
+    padding-right: 15px;
+}
+
+.talento-header {
+    display: flex;
+
+    border-bottom: 3px solid #303030;
+}
+.side-header {
+    margin: 260px 300px 0 0;
+
+    color: #000;
+    font-weight: 700;
+}
+
+
+.side-text {
+    margin-top: 100px;
+}
+
+.side-text:last-child {
+    padding-bottom: 100px;
+}
+.side-text-header {
+    color: #f00;
 }
